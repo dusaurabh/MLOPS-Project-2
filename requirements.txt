@@ -1,0 +1,12 @@
+pandas
+numpy
+setuptools
+google-cloud-storage
+pyyaml
+matplotlib
+tensorflow
+wordcloud
+joblib
+scikit-learn
+comet-ml
+dvc

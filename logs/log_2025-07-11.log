@@ -1,0 +1,29 @@
+2025-07-11 21:11:10,594 - INFO - Data Processing Initialized
+2025-07-11 21:11:11,390 - INFO - Data Loaded succesfully for Data Processing
+2025-07-11 21:11:11,516 - INFO - Filtered users successfully
+2025-07-11 21:11:11,682 - ERROR - Error in E:\Courses\GCP MLOps\MLOps-Project-2\src\data_processing.py , line 51 : Failed to scale data
+2025-07-11 21:13:28,582 - INFO - Data Processing Initialized
+2025-07-11 21:13:29,431 - INFO - Data Loaded succesfully for Data Processing
+2025-07-11 21:13:29,559 - INFO - Filtered users successfully
+2025-07-11 21:13:30,416 - INFO - Scaling done for Processing 
+2025-07-11 21:13:30,525 - INFO - Encoding done for Users and Anime
+2025-07-11 21:13:30,956 - INFO - Data splitted successfully
+2025-07-11 21:13:30,998 - INFO - user2user_encoded saved successfully in processed directory
+2025-07-11 21:13:31,012 - INFO - user2user_decoded saved successfully in processed directory
+2025-07-11 21:13:31,040 - INFO - anime2anime_encoded saved successfully in processed directory
+2025-07-11 21:13:31,061 - INFO - anime2anime_decoded saved successfully in processed directory
+2025-07-11 21:13:34,768 - INFO - All the training testing data as well as rating_df is saved now...
+2025-07-11 21:13:35,020 - ERROR - Error in E:\Courses\GCP MLOps\MLOps-Project-2\src\data_processing.py , line 142 : Failed to save anime and anime_synopsis data
+2025-07-11 21:15:47,682 - INFO - Data Processing Initialized
+2025-07-11 21:15:48,568 - INFO - Data Loaded succesfully for Data Processing
+2025-07-11 21:15:48,711 - INFO - Filtered users successfully
+2025-07-11 21:15:49,513 - INFO - Scaling done for Processing 
+2025-07-11 21:15:49,628 - INFO - Encoding done for Users and Anime
+2025-07-11 21:15:50,026 - INFO - Data splitted successfully
+2025-07-11 21:15:50,061 - INFO - user2user_encoded saved successfully in processed directory
+2025-07-11 21:15:50,068 - INFO - user2user_decoded saved successfully in processed directory
+2025-07-11 21:15:50,092 - INFO - anime2anime_encoded saved successfully in processed directory
+2025-07-11 21:15:50,110 - INFO - anime2anime_decoded saved successfully in processed directory
+2025-07-11 21:15:54,011 - INFO - All the training testing data as well as rating_df is saved now...
+2025-07-11 21:15:58,143 - INFO - DF and SYNOPSIS DF saved successfully
+2025-07-11 21:15:58,143 - INFO - Data Processing Pipeline run successfully....
