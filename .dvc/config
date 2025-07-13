@@ -1,0 +1,6 @@
+[core]
+    remote = saurabh-dvc-remote
+['remote "myremote"']
+    url = gs://saurabh-dvc-bucket/
+['remote "saurabh-dvc-remote"']
+    url = gs://saurabh-dvc/
