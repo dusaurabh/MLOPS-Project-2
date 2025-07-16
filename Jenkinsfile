@@ -65,22 +65,30 @@ pipeline {
             }
         }
 
-        stage("Deploying to Kubernetes...."){
+        stage("Deploying to Kubernetes....") {
             steps{
-                withCredentials([file(credentialsId:'gcp-key-project-2', variable: 'GOOGLE_APPLICATION_CREDENTIALS')]){
+                withCredentials([file(credentialsId:'gcp-key-project-2', variable: 'GOOGLE_APPLICATION_CREDENTIALS')]) {
                     script{
                         echo 'Deploying to Kubernetes'
                         sh '''
                         export PATH=$PATH:${GCLOUD_PATH}:${KUBECTL_AUTH_PLUGIN}
+                        
                         gcloud auth activate-service-account --key-file=${GOOGLE_APPLICATION_CREDENTIALS}
                         gcloud config set project ${GCP_PROJECT}
+                        
+                        
+                        gcloud components install gke-gcloud-auth-plugin --quiet
+                        
                         gcloud container clusters get-credentials mlops-project-2-cluster --region us-central1
+                        
+                        
                         kubectl apply -f deployment.yaml
                         '''
                     }
                 }
             }
         }
+
 
     }
 }
